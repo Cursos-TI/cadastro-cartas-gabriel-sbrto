@@ -21,24 +21,24 @@ int main() {
   scanf(" %c", &estado1);
 
   printf("Digite o Codigo (ex: A01): ");
-  scanf("%s", cidade1);
+  scanf("%s", codigo1);
 
   printf("Nome da Cidade: ");
-  scanf("%s", &cidade1);
+  scanf("%s", cidade1);
 
   printf("Populacao: ");
   scanf("%d", &populacao1);
 
   printf("Area (Km2): ");
-  scanf("%f", area1);
+  scanf("%f", &area1);
 
   printf("PIB: ");
   scanf("%f", &pib1);
   
   printf("Numero de Pontos Turisticos: ");
-  scanf("%d", pontos1);
+  scanf("%d", &pontos1);
 
-  
+
  
 
 } 
