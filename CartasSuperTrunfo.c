@@ -64,6 +64,8 @@ int main() {
   printf("Numero de Pontos Turisticos: ");
   scanf("%d", &pontos2); 
 
+  printf("\n");
+
   // exibicao de dados carta 1
 
   printf("Carta 1: \n");
