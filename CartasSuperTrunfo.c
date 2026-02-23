@@ -16,7 +16,8 @@ int main() {
   float area2, pib2;
   int pontos2;
 
-  //leitura de carta 1 e 2
+  //leitura de carta 1
+  
   printf("Digite o Estado (A-H): ");
   scanf(" %c", &estado1);
 
@@ -38,7 +39,28 @@ int main() {
   printf("Numero de Pontos Turisticos: ");
   scanf("%d", &pontos1);
 
+  // leitura de carta 2
 
- 
+  printf("Digite o Estado (A-H): ");
+  scanf(" %c", &estado2);
+
+  printf("Digite o Codigo: ");
+  scanf("%s", &codigo2);
+
+  printf("Nome da Cidade: ");
+  scanf("%s", &cidade2);
+
+  printf("Populacao: ");
+  scanf("%d", &populacao2);
+
+  printf("Area (Km2): ");
+  scanf("%f", &area2);
+
+  printf("PIB: ");
+  scanf("%f", &pib2);
+
+  printf("Numero de Pontos Turisticos: ");
+  scanf("%d", &pontos2); 
+
 
 } 
